@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Architecture
+- Store shared prototype-only student, payment, ticket, and check-in state through one validated localStorage-backed client module; this keeps the demo flow consistent across routes without introducing a backend.
